@@ -15,6 +15,5 @@ jobs:
         with:
           image: amuyal/merck
           registry: docker.io
-          tags: ${{ steps.meta.outputs.tags }}
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
